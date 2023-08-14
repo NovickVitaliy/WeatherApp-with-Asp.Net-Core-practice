@@ -29,5 +29,12 @@ namespace WeatherAppUpdated.Controllers
 				return View("CityDetails", model);
 			return Content("No city with such code has been found");
 		}
+
+		[HttpGet]
+		[Route("/about")]
+    public IActionResult About()
+    {
+      return View();
+    }
 	}
 }
