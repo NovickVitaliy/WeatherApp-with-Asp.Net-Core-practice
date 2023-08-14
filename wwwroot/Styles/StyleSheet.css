@@ -1,0 +1,29 @@
+﻿.main-content {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:90vh;
+}
+
+.weather-details {
+    flex: 1;
+    display:flex;
+    border:3px solid grey;
+    border-radius:5px;
+    margin:5px;
+    padding:5px;
+}
+
+.city-details{
+    flex:1;
+    text-align:left;
+    margin:5px;
+    padding:5px;
+}
+
+.temp-info {
+    border-left:3px solid grey;
+    flex: 1;
+    margin:15px;
+    padding:15px;
+}

@@ -1,0 +1,7 @@
+﻿@{
+	ViewBag.Title = "Weather Info";
+}
+
+@model List<CityWeather>
+
+@await Component.InvokeAsync("CityWeather", new { model = Model })

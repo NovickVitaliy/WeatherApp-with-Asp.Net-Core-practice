@@ -1,0 +1,10 @@
+﻿@model CityWeather
+
+@{
+	ViewBag.Title = $"Detail of city {@Model.CityName}";
+}
+
+<div class="main-content">
+	@await Component.InvokeAsync("CityWeather", new { Model = new List<CityWeather>() {Model} })
+</div>
+<a href="/">Back to weather main page</a>
